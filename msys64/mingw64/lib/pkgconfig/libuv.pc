@@ -1,0 +1,12 @@
+prefix=/mingw64
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libuv
+Version: 1.23.2
+Description: multi-platform support library with a focus on asynchronous I/O.
+URL: http://libuv.org/
+
+Libs: -L${libdir} -luv -lpthread  -lws2_32 -lpsapi -liphlpapi -lshell32 -luserenv -luser32
+Cflags: -I${includedir}

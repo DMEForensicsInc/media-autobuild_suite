@@ -1,0 +1,4 @@
+
+[web]
+cacerts = /usr/ssl/certs/ca-bundle.crt
+

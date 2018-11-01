@@ -1,0 +1,36 @@
+%NAME%
+mingw-w64-x86_64-ninja
+
+%VERSION%
+1.8.2-3
+
+%BASE%
+mingw-w64-ninja
+
+%DESC%
+Ninja is a small build system with a focus on speed (mingw-w64)
+
+%URL%
+https://ninja-build.org
+
+%ARCH%
+any
+
+%BUILDDATE%
+1530866592
+
+%INSTALLDATE%
+1540515397
+
+%PACKAGER%
+Alexey Pavlov <alexpux@gmail.com>
+
+%SIZE%
+1439744
+
+%LICENSE%
+Apache
+
+%VALIDATION%
+pgp
+

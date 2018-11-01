@@ -1,0 +1,20 @@
+CFLAGS: -mthreads -mtune=generic -O2 -pipe
+LDFLAGS: -pipe -static-libgcc -static-libstdc++
+real_extract SDL2-2.0.8.tar.gz SDL2-2.0.8
+
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,8 CPUs x64)
+
+Scanning the drive for archives:
+1 file, 4909017 bytes (4794 KiB)
+
+Extracting archive: SDL2-2.0.8.tar.gz
+--
+Path = SDL2-2.0.8.tar.gz
+Type = gzip
+Headers Size = 10
+
+Everything is Ok
+
+Size:       65341440
+Compressed: 4909017

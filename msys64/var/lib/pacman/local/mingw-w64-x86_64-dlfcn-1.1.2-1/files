@@ -1,0 +1,10 @@
+%FILES%
+mingw64/
+mingw64/bin/
+mingw64/bin/libdl.dll
+mingw64/include/
+mingw64/include/dlfcn.h
+mingw64/lib/
+mingw64/lib/libdl.a
+mingw64/lib/libdl.dll.a
+

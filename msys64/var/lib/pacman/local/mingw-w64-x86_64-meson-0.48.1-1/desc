@@ -1,0 +1,41 @@
+%NAME%
+mingw-w64-x86_64-meson
+
+%VERSION%
+0.48.1-1
+
+%BASE%
+mingw-w64-meson
+
+%DESC%
+High-productivity build system (mingw-w64)
+
+%URL%
+http://mesonbuild.com/
+
+%ARCH%
+any
+
+%BUILDDATE%
+1539842973
+
+%INSTALLDATE%
+1540515459
+
+%PACKAGER%
+Alexey Pavlov <alexpux@gmail.com>
+
+%SIZE%
+2806784
+
+%LICENSE%
+Apache 2
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+mingw-w64-x86_64-python3
+mingw-w64-x86_64-python3-setuptools
+mingw-w64-x86_64-ninja
+

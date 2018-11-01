@@ -1,0 +1,76 @@
+
+Build start: 2018-10-29 17:57:30 -0600
+ffmpeg
+2018-10-29 19:41:24 +0000: Mark Thompson - c0692cb2bb
+    vaapi_encode_mpeg2: Fix width/height columns/rows confusion
+2018-10-29 17:00:49 +0100: Michael Niedermayer - 4885ff663b
+    avcodec/vp3: reindent unpack_superblocks()
+2018-10-29 17:00:49 +0100: Michael Niedermayer - b5e7e437f4
+    avcodec/vp3: Do not recalculate coded_fragment_list for keyframes
+2018-10-29 17:00:49 +0100: Michael Niedermayer - f563180817
+    avcodec/vp3: Reuse local variable in unpack_superblocks()
+2018-10-29 17:00:49 +0100: Michael Niedermayer - 88e3807aaf
+    avcodec/vp3: Do not initialize unused tables for keyframes in unpack_superblock()
+2018-10-29 16:45:27 +0100: Paul B Mahol - 7e1add2c51
+    doc/filters: add small description to geq filter section
+2018-10-28 22:33:20 +0100: Paul B Mahol - e95987f6ca
+    avfilter/af_afftdn: fix memory leaks reported by coverity
+2018-10-28 16:42:41 +0000: Mark Thompson - 7070955d43
+    libaomenc: Add support for tiles
+2018-10-28 15:00:34 +0100: Paul B Mahol - 0c8b5cb369
+    avfilter/af_afftdn: add alias for sample_noise end
+2018-10-28 14:31:03 +0100: Paul B Mahol - bb54c0ae71
+    avfilter/af_afftdn: switch to activate
+2018-10-28 15:16:04 +0800: Jun Zhao - bdfd2e3c79
+    lavc/libxavs2: Remove yuv420p10le from fromat list.
+2018-10-28 15:10:47 +0800: Jun Zhao - 6885fa7499
+    lavc/libdavs2: Remove yuv420p10le from fromat list.
+2018-10-28 14:20:29 +0800: hwren - c00ed8d0e7
+    lavc/libxavs2: enable OpenGop
+2018-10-28 14:20:29 +0800: hwren - 4c23262811
+    lavc/libxavs2: fix intra period meaning conflict
+2018-10-28 14:20:29 +0800: hwren - 9c190ad394
+    lavc/libxavs2: unified naming style
+2018-10-27 22:39:27 +0200: Michael Niedermayer - cd34c6a57e
+    avfilter/vf_pixdesctest: Use 32bit read/write
+2018-10-27 22:39:27 +0200: Michael Niedermayer - 718044dc19
+    avutil/pixdesc: Add av_write_image_line2(), av_read_image_line2()
+2018-10-27 16:06:36 -0300: James Almer - a5d98da4d6
+    avcodec/cbs_vp9: fix parsing sRGB samples
+2018-10-27 16:06:36 -0300: James Almer - 99ef8b8afd
+    avcodec/cbs_av1: fix parsing frame_size_with_refs
+2018-10-27 19:35:35 +0100: Mark Thompson - fef2162b6e
+    vaapi_encode: Add flag to mark encoders supporting only constant-quality
+2018-10-27 19:35:35 +0100: Mark Thompson - a7eda762dc
+    vaapi_encode_h265: Enable multiple-slice support
+2018-10-27 19:35:35 +0100: Mark Thompson - a769e72c75
+    vaapi_encode_h264: Enable multiple-slice support
+2018-10-27 19:35:35 +0100: Mark Thompson - 29816e278f
+    vaapi_encode_mpeg2: Use common slice sizing code
+2018-10-27 19:35:35 +0100: Mark Thompson - 2923ed247e
+    vaapi_encode: Support configurable slices
+2018-10-27 13:36:00 +0200: Paul B Mahol - 40ac622460
+    avfilter/window_func: add bohman window
+2018-10-27 00:12:30 -0300: James Almer - 59a35fe1f6
+    tests/api-h264-slice-test: use the correct function to free the AVHashContext
+
+
+Build start: 2018-10-26 13:43:22 -0600
+
+Build start: 2018-10-26 12:38:10 -0600
+ffmpeg
+2018-10-26 13:39:25 +0200: Cameron Cawley - 0e9c01fd87
+    avformat/rpl: Support files containing 8 bit PCM or VIDC audio
+2018-10-26 13:39:25 +0200: Cameron Cawley - 22238d0b94
+    avcodec: Implement Archimedes VIDC encoder/decoder
+2018-10-26 11:51:04 +0100: Josh de Kock - fb7925ba2f
+    fate: add api-h264-slice test
+2018-10-26 11:48:14 +0100: Josh de Kock - 0a055f463a
+    lavc/h264dec: don't error out when receiving multiple IDR slices
+2018-10-26 12:40:54 +0200: Paul B Mahol - 4fcfb9c4eb
+    avfilter: add xstack filter
+2018-10-26 11:49:47 +0530: kjeyapal@akamai.com - de43c227fd
+    avformat/dashenc: Support HTTP persistent for init segments as well
+
+
+Build start: 2018-10-25 19:23:01 -0600

@@ -1,0 +1,18 @@
+[ui]
+username = Bart.Wolczyk
+verbose = True
+editor = vim
+
+[web]
+cacerts=/usr/ssl/cert.pem
+
+[extensions]
+color =
+
+[color]
+status.modified = magenta bold
+status.added = green bold
+status.removed = red bold
+status.deleted = cyan bold
+status.unknown = blue bold
+status.ignored = black bold

@@ -1,0 +1,16 @@
+[user]
+name = Bart.Wolczyk
+email = Bart.Wolczyk@DME-ATS-04
+
+[color]
+ui = true
+
+[core]
+editor = vim
+autocrlf =
+
+[merge]
+tool = vimdiff
+
+[push]
+default = simple
