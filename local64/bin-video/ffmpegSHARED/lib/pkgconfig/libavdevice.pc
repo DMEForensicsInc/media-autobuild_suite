@@ -1,0 +1,14 @@
+prefix=/local64/bin-video/ffmpegSHARED
+exec_prefix=${prefix}
+libdir=/local64/bin-video/ffmpegSHARED/lib
+includedir=/local64/bin-video/ffmpegSHARED/include
+
+Name: libavdevice
+Description: FFmpeg device handling library
+Version: 58.4.106
+Requires: 
+Requires.private: libavfilter >= 7.38.100, libswscale >= 5.2.100, libavformat >= 58.19.102, libavcodec >= 58.34.100, libswresample >= 3.2.100, libavutil >= 56.21.100
+Conflicts:
+Libs: -L${libdir}  -lavdevice 
+Libs.private: -lpsapi -lole32 -lstrmiids -luuid -loleaut32 -lshlwapi -lgdi32 -lm -lvfw32 -LC:/ab_suite_prod_2_backup/master/local64/lib -lmingw32 -lSDL2main -lSDL2 -lmingw32 -lSDL2main -lSDL2 -Wl,--no-undefined -lm -ldinput8 -ldxguid -ldxerr8 -luser32 -lgdi32 -lwinmm -limm32 -lole32 -loleaut32 -lshell32 -lversion -luuid -static-libgcc
+Cflags: -I${includedir}

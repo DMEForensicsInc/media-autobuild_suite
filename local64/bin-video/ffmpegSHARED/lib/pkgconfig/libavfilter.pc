@@ -1,0 +1,14 @@
+prefix=/local64/bin-video/ffmpegSHARED
+exec_prefix=${prefix}
+libdir=/local64/bin-video/ffmpegSHARED/lib
+includedir=/local64/bin-video/ffmpegSHARED/include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 7.38.100
+Requires: 
+Requires.private: libswscale >= 5.2.100, libavformat >= 58.19.102, libavcodec >= 58.34.100, libswresample >= 3.2.100, libavutil >= 56.21.100
+Conflicts:
+Libs: -L${libdir}  -lavfilter 
+Libs.private: -lm
+Cflags: -I${includedir}

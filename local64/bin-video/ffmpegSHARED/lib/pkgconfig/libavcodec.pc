@@ -1,0 +1,14 @@
+prefix=/local64/bin-video/ffmpegSHARED
+exec_prefix=${prefix}
+libdir=/local64/bin-video/ffmpegSHARED/lib
+includedir=/local64/bin-video/ffmpegSHARED/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 58.34.100
+Requires: 
+Requires.private: libswresample >= 3.2.100, libavutil >= 56.21.100
+Conflicts:
+Libs: -L${libdir}  -lavcodec 
+Libs.private: -lm -llzma -LC:/ab_suite_prod_2_backup/master/msys64/mingw64/lib -lz -lmp3lame -lm -LC:/ab_suite_prod_2_backup/master/msys64/mingw64/lib -lopenjp2 -lm -LC:/ab_suite_prod_2_backup/master/local64/lib -lopus -lm -LC:/ab_suite_prod_2_backup/master/msys64/mingw64/lib -lvorbis -lm -logg -LC:/ab_suite_prod_2_backup/master/msys64/mingw64/lib -lvorbisenc -lvorbis -lm -logg -lole32 -luser32
+Cflags: -I${includedir}
